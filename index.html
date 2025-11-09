@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌿 지속가능 소비 홈페이지</title>
+  <style>
+    body {
+      font-family: "Noto Sans KR", sans-serif;
+      background-color: #F5F9F1;
+      color: #3E3E3E;
+      margin: 0;
+      line-height: 1.8;
+    }
+
+    /* 상단 네비게이션 */
+    nav {
+      background-color: #A3D9A5;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2F3E2F;
+      font-weight: 500;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    /* 섹션 기본 */
+    section {
+      max-width: 800px;
+      margin: 60px auto;
+      background: #fff;
+      border-radius: 12px;
+      border: 2px solid #BBDDB8;
+      padding: 40px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2F4F2F;
+    }
+
+    h2 {
+      color: #3A5D3A;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: 2px solid #3A5D3A;
+      color: #3A5D3A;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #3A5D3A;
+      color: #fff;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 600px;
+      margin: 20px auto;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 상단 메뉴 -->
+  <nav>
+    <a href="#home">홈</a>
+    <a href="#map">지도</a>
+    <a href="#ethics">윤리적 소비</a>
+    <a href="#upcycle">업사이클링</a>
+    <a href="#links">자료실</a>
+  </nav>
+
+  <!-- 홈 -->
+  <section id="home">
+    <h1>🌿 지속가능 소비 홈페이지</h1>
+    <p>
+      이 사이트는 <strong>지속가능한 소비</strong>를 주제로 만들어졌습니다.<br>
+      환경을 보호하고, 사회적 책임을 다하는 소비 방식을 소개합니다.<br>
+      아래 메뉴에서 지역 헬스장 정보, 소비 윤리, 업사이클링 사례 등을 살펴보세요 🌱
+    </p>
+  </section>
+
+  <!-- 지도 -->
+  <section id="map">
+    <h2>🏋️‍♀️ 충남대학교 주변 헬스장 지도</h2>
+    <p>가격이 명시된 충남대 근처 헬스장 위치를 확인해보세요.</p>
+    <a href="map.html" class="btn">지도 보기</a>
+    <!-- map.html 파일을 따로 만들어 지도 이미지를 보여주면 됩니다 -->
+  </section>
+
+  <!-- 윤리적 소비 -->
+  <section id="ethics">
+    <h2>🤝 상거래상 소비 윤리의 중요성</h2>
+    <p>
+      상거래상 소비 윤리는 단순히 올바른 구매 습관을 넘어서, <strong>모든 거래 관계에서의 공정성과 신뢰</strong>를 지키는 핵심 가치입니다.<br><br>
+      불공정한 약관이나 부당한 거래는 소비자에게 피해를 줄 뿐 아니라, 사회 전체의 시장 질서를 무너뜨릴 수 있습니다.<br>
+      따라서 <strong>공정한 계약, 투명한 정보 공개, 기업의 사회적 책임</strong>은 지속가능한 경제의 기본 조건입니다.<br><br>
+      소비자 한 사람의 선택이 시장의 윤리를 바꿉니다.  
+      불공정 약관 개선 서명 운동은 이러한 변화를 만드는 첫걸음입니다 🌍
+    </p>
+    <a href="https://www.consumer.go.kr/" target="_blank" class="btn">서명 참여하기</a>
+  </section>
+
+  <!-- 업사이클링 -->
+  <section id="upcycle">
+    <h2>♻️ 업사이클링 & 제로웨이스트</h2>
+    <p>
+      사용하지 않는 물건이 새로운 가치로 재탄생할 수 있습니다.<br>
+      대전 지역의 제로웨이스트샵이나 리필스테이션을 소개합니다.
+    </p>
+    <img src="zero.jpg" alt="제로웨이스트 매장 이미지">
+  </section>
+
+  <!-- 자료실 -->
+  <section id="links">
+    <h2>📚 자료실</h2>
+    <p>환경과 소비에 대한 더 깊은 자료를 살펴보세요.</p>
+    <ul>
+      <li><a href="https://www.me.go.kr/" target="_blank">환경부 공식 사이트</a></li>
+      <li><a href="https://www.wwfkorea.or.kr/" target="_blank">WWF Korea</a></li>
+      <li><a href="https://www.kca.go.kr/" target="_blank">한국소비자원</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 지속가능 소비 프로젝트 | Made with 🌱 by 충남대 학생
+  </footer>
+
+</body>
+
+</html>
